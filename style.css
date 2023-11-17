@@ -4,7 +4,7 @@ body {
 }
 
 header{
-    background-image: url(folder/5.png);
+    background-image: url(https://i.ibb.co/t2K5KNc/5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,6 +31,12 @@ nav{
     line-height: normal;
     text-decoration: none;
     -webkit-text-stroke: 1px white;
+}
+.nav-link:hover{
+    text-shadow: 4px 4px 4px rgb(199, 52, 101);
+    font-weight: 900;
+    -webkit-text-stroke: 1px white;
+    transition: 0.5s;
 }
 
 .about-us-text h2{
@@ -59,7 +65,7 @@ nav{
 }
 
 ul li{
-    list-style: url(folder/4.png);
+    list-style: url(https://i.ibb.co/TtZ5bSr/4.png);
 }
 
 .menu h2{
@@ -73,16 +79,17 @@ ul li{
 }
 
 .all_dives{
+    padding: 20px;
     display: flex;
     color: #000;
     text-shadow: 0px 4px 4px #000;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    -webkit-text-stroke: 1px white;
-    justify-content: space-around;
+    -webkit-text-stroke: 0.3px white;
+    justify-content: space-evenly;
 }
 
 .column_one, .column_two, .third_column{
@@ -119,7 +126,6 @@ ul li{
 .image-main{
     text-align: center;
 }
-
 footer{
     margin-top: 100px;
     background-color: black;
